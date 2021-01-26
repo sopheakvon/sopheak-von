@@ -1,0 +1,16 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    background:pink;
+   
+}
+ul{
+    margin: 0;
+    display: flex;
+}
+ul li{
+    padding: 10px;
+    list-style: none;
+}
