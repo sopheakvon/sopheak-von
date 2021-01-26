@@ -1,16 +1,42 @@
 body{
     padding: 0px;
     margin: 0px;
+    background: rgb(234, 204, 241);
+    font-family: sans-serif;
 }
 .container{
-    background:pink;
-   
+    background:#fff;
+
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    height: 80vh;
+    box-shadow: 4px 6px 5px 0px rgba(7,7,7,0.61);
+    margin-top: 30px;
+}
+header{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
 }
 ul{
     margin: 0;
     display: flex;
 }
+ul :hover{
+    background: rgb(219, 219, 171);
+}
+
 ul li{
     padding: 10px;
     list-style: none;
+   
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.active {
+    background: rgb(219, 219, 171);
 }
