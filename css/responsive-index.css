@@ -1,0 +1,59 @@
+@media (max-width: 900px) {
+    .button-group {
+        display: flex;
+        flex-direction: column;
+    }
+    .button-group a {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+@media (max-width: 810px) {
+    footer {
+        justify-content: center;
+    }
+    .social {
+        justify-content: center;
+        width: 100%;
+    }
+}
+@media (max-width: 800px ) {
+  
+}
+@media (max-width: 700px) {
+    .getstart {
+        flex-direction: column-reverse;
+    }
+    .info,.picture {
+        width: 100%;
+    }
+    .button-group {
+        display: flex;
+        flex-direction: row;
+    }
+    header {
+        flex-direction: column;
+    }
+    ul {
+        background: rgb(223, 169, 224);
+        border-radius: 40px;
+    }
+    a {
+        color: #000;
+    }
+    .active {
+        border-radius: 40px 0 0 40px;
+    }
+    .active a {
+        border-radius:1px;
+        background: none;
+    }
+}
+
+@media (max-width: 678px ) {
+    .button-group {
+        display: flex;
+        flex-direction: column;
+    }
+  
+}
