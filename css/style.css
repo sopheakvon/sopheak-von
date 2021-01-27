@@ -160,37 +160,69 @@ ol li a {
 /* other */
 
 .other-info {
-display: flex;
-justify-content: space-between;
-margin-top: 30px;
-}
-.other-img1 {
-background: url('../img/other.png');
-background-size: cover;
-background-position: center 88%;
-width: 48%;
-border-radius: 10px 10px 0 0;
-padding: 10px;
-line-height: 1.4;
-}
-.other-img2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-direction: row-reverse;
+    }
+    .other-img1 {
+    background: url('../img/other.png');
+    background-size: cover;
+    background-position: center 88%;
+    width: 48%;
+    border-radius: 0 10px 0 0;
+    padding: 10px;
+    line-height: 1.4;
+    }
+    .other-img2 {
+    background: url('../img/other2.png');
+    background-size: cover;
+    background-position: center 88%;
+    width: 48%;
+    border-radius: 10px 0 0 0;
+    padding: 10px;
+    line-height: 1.4;
+    }
+    .vote {
+    display: flex;
+    justify-content: flex-end;
+    
+    }
+    .vote a {
+    padding: 10px;
+    text-decoration: none;
+    background: rgb(209, 120, 212);
+    border-radius: 50%;
+    margin-left: 10px;
+    color: #fff;
+    }
+    
+    
 
-height: 50vh;
-width: 48%;
-}
-.vote {
-display: flex;
-justify-content: flex-end;
-}
-.vote a {
-padding: 10px;
-text-decoration: none;
-background: rgb(209, 120, 212);
-border-radius: 50%;
-margin-left: 10px;
-color: #fff;
-}
+    
+    .other-img3 {
+    background: url('../img/other-4.png');
+    background-size: cover;
+    background-position: center 10%;
+    width: 48%;
+    border-radius: 0 0 0 10px;
+    padding: 10px;
+    line-height: 1.4;
+    }
+    
+    .other-img4 {
+    background: url('../img/other-3.png');
+    background-size: cover;
+    background-position: center 10%;
+    width: 48%;
+    border-radius: 0 0 10px 0;
+    padding: 10px;
+    line-height: 1.4;
+    }
 h3{
 
+    color:rgb(0, 0, 129);
+}
+h2{
     color:rgb(0, 0, 129);
 }
