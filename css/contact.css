@@ -30,7 +30,7 @@ input[type=submit]{
     border-radius: 3px;
     color: #fff;
     text-transform: uppercase; 
-    
+    background: rgb(225, 161, 255);
     
 }
 input[type=reset]{
@@ -53,4 +53,5 @@ input[type=reset]{
 }
 h2{
     color:rgb(162, 4, 235);
+    
 }
