@@ -24,6 +24,7 @@
     margin-top: 20px;
     
     }
+
     .info,.picture {
     width: 100%;
     }
@@ -79,5 +80,11 @@
     ul {
     width: 99%;
     }
+    .getstart {
+        flex-direction: column-reverse;
+        margin-top:0px;
+        
+        
+        }
     
     }
