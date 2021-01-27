@@ -21,6 +21,8 @@
     @media (max-width: 700px) {
     .getstart {
     flex-direction: column-reverse;
+    margin-top: 20px;
+    
     }
     .info,.picture {
     width: 100%;
@@ -36,6 +38,7 @@
     ul {
     background: rgb(223, 169, 224);
     border-radius: 40px;
+    box-sizing: border-box;
     }
     a {
     color: #000;
