@@ -80,8 +80,8 @@ ul li a{
 .eclipes4 {
     width: 30%;
     position: absolute;
-    right:240px;
-    top:200px;
+    right:-10px;
+    top:100px;
 }
 .getstart{
     display: flex;
