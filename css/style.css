@@ -89,11 +89,13 @@ nav ul li a{
     margin-top: 100px;
     box-sizing: border-box;
     justify-content: space-around;
+    padding: 10px;
 }
 .info {
     width: 30%;
     box-sizing: border-box;
     line-height: 1.5;
+    padding: 10px;
     
 }
 
