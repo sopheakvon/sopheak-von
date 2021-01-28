@@ -44,7 +44,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 .active {
-    background: rgb(3, 183, 238);
+    background: rgb(197, 166, 233);
     border-radius: 40px;
     color: #fff;
 }
