@@ -11,7 +11,7 @@ body{
     border-radius: 10px;
     width: 80%;
     margin: auto;
-    padding: 10px;
+  
     margin-bottom: 10px;
     box-shadow: 4px 6px 5px 0px rgba(7,7,7,0.61);
     margin-top: 30px;
@@ -21,6 +21,7 @@ header{
     justify-content: space-between;
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 nav ul{
     margin: 0;

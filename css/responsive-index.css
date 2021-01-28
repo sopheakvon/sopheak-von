@@ -38,7 +38,7 @@
     margin-bottom: 10px;
     }
     ul {
-    background: rgb(223, 169, 224);
+
     border-radius: 40px;
     box-sizing: border-box;
     width: 100%;
@@ -101,7 +101,38 @@
         
         
         }
+
+
+        .education{
+            flex-direction: column;
+
+        }
+        .box1,
+        .box2,
+        .box3{
+            width: 100%;
+            border-radius: 0;
+        }
+        .box-container{
+            flex-direction: column;
+        }
+        .box-1,
+        .box-2,
+        .box-3{
+            margin-top: 10px;
+            width: 100%;
+        }
+        .button{
+            flex-direction: column;
+        }
+        .hire-me,
+        .down-cv{
+            width: 100%;
+            margin-top: 10px;
+        }
+
     
     }
-
-
+    
+ 
+    
