@@ -22,24 +22,24 @@ header{
     display: flex;
     align-items: center;
 }
-ul{
+nav ul{
     margin: 0;
     display: flex;
 }
-ul :hover{
+nav ul :hover{
     background: rgb(3, 183, 238);
     border-radius: 40px;
 
     color:black;
 }
 
-ul li{
+nav ul li{
     padding: 10px;
     list-style: none;
    
 }
 
-ul li a{
+nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
 }

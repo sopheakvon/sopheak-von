@@ -1,16 +1,44 @@
+.about-text p:nth-child(1){
+    color:rgb(99, 22, 102);
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.about-text p:nth-child(2){
+    color: rgb(100, 84, 54);
+}
+.about-text p:nth-child(3){
+    color:  rgb(100, 84, 54) ;
+}
+.hire-me{
+    border-radius: 5px;
+    border:1px solid  rgb(224, 15, 214);
+    padding: 10px;
+}
+.down-cv{
+    border-radius: 5px;
+    padding: 10px;
+    background: rgb(224, 15, 214)
+    
+}
+
 .education{
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.education h3{
+h1{
+    color: rgb(2, 32, 117);
+}
+.education h1{
     width: 100%;
     text-align: center;
 }
 .box1{
     width: 33%;
     box-sizing: border-box;
+    
     
 }
 .box2{
@@ -27,9 +55,26 @@
 .box1,
 .box2,
 .box3{
-    background: rgb(194, 172, 218);
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 70px;
-    box-shadow: 4px 6px 5px 0px rgba(7,7,7,0.61);
+background: rgb(194, 172, 218);
+border-radius: 10px;
+padding: 10px;
+margin-top: 70px;
+background: url(../img/about-bg.png);
+background-size: cover;
+text-align: left;
+}
+
+.school {
+display: flex;
+flex-direction: column;
+
+}
+.school li {
+padding: 10px;
+margin-bottom: 10px;
+}
+.school li:hover {
+background: rgb(253, 249, 1);
+border-radius: 30px;
+cursor: pointer;
 }
