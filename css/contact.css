@@ -66,7 +66,7 @@ p{
 }
 .icon{
     font-size: 15px;
-    color:red;
+    
     display: flex;
     flex-direction: column;
 }

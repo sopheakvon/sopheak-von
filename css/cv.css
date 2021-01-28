@@ -8,7 +8,7 @@ footer {
     align-items: flex-end;
     }
     .social a {
-    color: #fff;
+    color: #fff !important;
     }
     .cv-container {
     display: flex;
