@@ -1,3 +1,16 @@
+.about{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.about-pic{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 500px;
+    box-shadow:  -4px 2px 0px 4px rgba(0,0,0,0.47);;
+   
+}
 .about-text p:nth-child(1){
     color:rgb(99, 22, 102);
     font-size: 30px;
@@ -10,16 +23,62 @@
 .about-text p:nth-child(3){
     color:  rgb(100, 84, 54) ;
 }
-.hire-me{
-    border-radius: 5px;
-    border:1px solid  rgb(224, 15, 214);
+.about-header{
+    width: 80%;
+    display: flex;
+    margin:auto;
+    background: #fad1fc;
+    box-shadow:11px -10px 9px -7px rgba(0,0,0,0.73);
+    border-radius: 10px;
+    margin-top: 50px;
     padding: 10px;
+    align-items: center;
 }
-.down-cv{
-    border-radius: 5px;
-    padding: 10px;
-    background: rgb(224, 15, 214)
+.text-about p:nth-child(1){
+    color:#403e3e;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height: 5px;
+    font-size: 23px;
+}
+.text-about p:nth-child(2){
+    color:#353434;
+    line-height: 5px;
+    font-weight: bold;
+    font-family: myriad pro;
+}
+.text-about :nth-child(3),
+.text-about :nth-child(4){
+    color:#251627;
+    font-family:sans-serif;
+    font-size: 16px;
+}
+
+
+.button{
+    display: flex;
     
+   
+}
+.hire-me{
+    padding: 10px;
+    border:1px solid rgb(207, 27, 252);
+    width: 49%;
+    border-radius: 5px;
+    outline: none;
+    text-transform: uppercase;
+    
+}
+
+.down-cv{
+    padding: 10px;
+    background: rgb(207, 27, 252);
+    border:none;
+    border-radius: 5px;
+    color:#fff;
+    text-transform: uppercase;
+    width: 49%;
+    outline: none;
 }
 
 .education{
@@ -30,6 +89,7 @@
 }
 h1{
     color: rgb(2, 32, 117);
+    box-shadow: -8px 11px 9px 3px rgba(0,0,0,0.38);;
 }
 .education h1{
     width: 100%;
@@ -58,10 +118,11 @@ h1{
 background: rgb(194, 172, 218);
 border-radius: 10px;
 padding: 10px;
-margin-top: 70px;
+margin-top: 10px;
 background: url(../img/about-bg.png);
 background-size: cover;
 text-align: left;
+
 }
 
 .school {
