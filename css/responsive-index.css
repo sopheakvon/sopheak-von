@@ -1,3 +1,19 @@
+@media(max-width:1027px){
+    .box-container{
+        flex-wrap: wrap;
+      
+    }
+    .box-1,
+    .box-2{
+        width: 50%;
+    }
+    .box-3{
+        width: 100%;
+    }
+    
+}
+
+
 @media (max-width: 900px) {
     .button-group {
     display: flex;
@@ -69,6 +85,9 @@
     background: url(../img/other.png);
     background-size: cover;
     }
+    .tex-container{
+        flex-direction: column;
+    }
 /* contact us responsive */
     .contact-page{
         flex-direction: column;
@@ -130,14 +149,21 @@
             width: 100%;
             margin-top: 10px;
         }
+        .tex-container{
+            flex-direction: column;
+        }
 
     
     }
+    
     @media(max-width:500px){
         .about-header{
             flex-direction: column;
         }
+        /* <....CV responsive....> */
+        .tex-container{
+            flex-direction: column;
+        }
+
     }
-    
  
-    

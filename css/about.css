@@ -75,6 +75,11 @@
     font-weight: bold;
     color:rgb(2, 2, 121);
 }
+.services-text p:nth-child(2){
+    font-size: 20px;
+    font-weight:bold;
+    color:rgb(2, 2, 121);
+}
 
 /* <....class box skill.styel...> */
 .box-container{
