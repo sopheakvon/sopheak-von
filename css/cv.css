@@ -6,121 +6,137 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    }
-    .social a {
+    
+}
+
+.social a {
     color: #fff !important;
-    }
-    .cv-container {
+}
+
+.cv-container {
     display: flex;
     justify-content: space-around;
-    }
-    
-    .cv-text {
+}
+
+.cv-text {
     width: 40%;
     padding: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     font-family: sans-serif;
-  
-    
-    }
-    .picture-right {
+
+
+}
+
+.picture-right {
     width: 45%;
     padding: 30px;
-    }
-    .btn-down {
+}
+
+.btn-down {
     background: rgb(209, 120, 212);
     padding: 10px;
-    margin: 10px;
     text-decoration: none;
     color: #fff;
     border-radius: 5px;
-    width: 300px;
+    /* width: 300px; */
     text-align: center;
-    }
-  
-    
+}
 
-.tex-container{
+
+
+.tex-container {
     display: flex;
     width: 80%;
-    margin:auto;
+    margin: auto;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
     border-radius: 5px;
-    
-   
+    flex-direction: column;
+
+
 }
-.class-img{
+
+.class-img {
     border-radius: 5px;
     padding: 10px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     background: rgb(240, 213, 245);
-  
+
 }
-.class-img li{
-    color:rgb(110, 110, 108);
+
+.class-img li {
+    color: rgb(110, 110, 108);
 }
-.reference{
-    width: 260px;
+
+.reference {
+    width: 100%;
     background: rgb(240, 213, 245);
     border-radius: 5px;
     padding: 10px;
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     flex-direction: column;
 }
-.experence{
-    width: 260px;
+
+.experence {
+    width: 100%;
     background: rgb(240, 213, 245);
     border-radius: 5px;
     padding: 10px;
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     flex-direction: column;
-   
+
 }
-.experence li:nth-child(1){
+
+.experence li:nth-child(1) {
     font-size: 15px;
     font-weight: bold;
-    color:rgb(27, 5, 155);
+    color: rgb(27, 5, 155);
 }
+
 .experence li:nth-child(2),
 .experence li:nth-child(3),
-.experence li:nth-child(4){
-    color:rgb(104, 103, 105);
+.experence li:nth-child(4) {
+    color: rgb(104, 103, 105);
 }
+
 .ex-exper h3,
 .ex-education h3,
-.ex-reference h3{
+.ex-reference h3 {
     border-bottom: 2px dotted rgb(5, 155, 12);
 }
 
-.letter{
+.letter {
     display: flex;
     justify-content: center;
     align-items: center;
-    color:rgb(27, 5, 155);
+    color: rgb(27, 5, 155);
     font-weight: bold;
-   
+
 }
-.letter img {
-    margin-right: 10px;
-}
+
+
 
 /* <...Profile style........> */
 
-span{
-    color:rgb(27, 5, 155);
+span {
+    color: rgb(27, 5, 155);
     line-height: 1.4;
-    
+
 }
-.class-profile h3{
+
+.class-profile h3 {
     padding: 10px;
     margin-left: 10px;
+}
+.ex-education,
+.ex-exper,
+.ex-reference {
+    width: 100%;
+    box-sizing: border-box;
 }

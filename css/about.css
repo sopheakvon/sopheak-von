@@ -1,151 +1,173 @@
 /* <about-text style......> */
-.about{
+.about {
     display: flex;
     margin-top: 10px;
     padding: 10px;
-    
+
 }
-.about-header{
+
+.about-header {
     width: 80%;
     display: flex;
-    margin:auto;
+    margin: auto;
     background: #fad1fc;
-    box-shadow:5px -5px 9px -7px rgba(0,0,0,0.73);
+    box-shadow: 5px -5px 9px -7px rgba(0, 0, 0, 0.73);
     border-radius: 10px;
     margin-top: 50px;
     padding: 10px;
     align-items: center;
 }
-.text-about p:nth-child(1){
-    color:#403e3e;
-    font-family:sans-serif;
+
+.text-about p:nth-child(1) {
+    color: #403e3e;
+    font-family: sans-serif;
     font-weight: bold;
     line-height: 5px;
     font-size: 23px;
 }
-.text-about p:nth-child(2){
-    color:#353434;
+
+.text-about p:nth-child(2) {
+    color: #353434;
     line-height: 5px;
     font-weight: bold;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
+
 .text-about :nth-child(3),
-.text-about :nth-child(4){
-    color:#251627;
-    font-family:sans-serif;
+.text-about :nth-child(4) {
+    color: #251627;
+    font-family: sans-serif;
     font-size: 16px;
 }
-.button{
+
+.button {
     display: flex;
     justify-content: space-around;
-    
-   
+
+
 }
-.hire-me{
+
+.hire-me {
     padding: 10px;
-    border:1px solid rgb(207, 27, 252);
+    border: 1px solid rgb(207, 27, 252);
     width: 49%;
     border-radius: 5px;
     outline: none;
     text-transform: uppercase;
-    
+
 }
-.down-cv{
+
+.down-cv {
     padding: 10px;
     background: rgb(225, 161, 255);
-    border:none;
+    border: none;
     border-radius: 5px;
-    color:#fff;
+    color: #fff;
     text-transform: uppercase;
     width: 49%;
     outline: none;
-    
+
 }
 
 /* <About Skill Style......> */
-.Skill{
-    padding:2% 10% 0px 10% ;
+.Skill {
+    padding: 2% 10% 0px 10%;
     background: rgb(248, 237, 252);
     margin-top: 50px;
     border-radius: 10px;
 }
-.services-text p:nth-child(1){
+
+.services-text p:nth-child(1) {
     font-size: 28px;
     font-family: sans-serif;
     font-weight: bold;
-    color:rgb(2, 2, 121);
+    color: rgb(2, 2, 121);
 }
-.services-text p:nth-child(2){
+
+.services-text p:nth-child(2) {
     font-size: 20px;
-    font-weight:bold;
-    color:rgb(2, 2, 121);
+    font-weight: bold;
+    color: rgb(2, 2, 121);
 }
 
 /* <....class box skill.styel...> */
-.box-container{
+.box-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
 }
+
 /* <....box skill style...> */
-.box-1,.box-2,.box-3{
-    width: 260px;
+.box-1,
+.box-2,
+.box-3 {
+    width: 30%;
     background: rgb(240, 213, 245);
     border-radius: 5px;
     padding: 10px;
     display: flex;
-    text-align:center;
+    text-align: center;
     align-items: center;
     flex-direction: column;
-    
+
 }
+
 /* <......style button skill..> */
-.btn-button{
+.btn-button {
     background: rgb(240, 142, 223);
     border: none;
     padding: 10px;
     border-radius: 5px;
-    color:rgb(2, 2, 218);
+    color: rgb(2, 2, 218);
 }
-    
-    
+
+
 /* <Education styel......> */
 
-.education{
+.education {
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-h1{
+
+h1 {
     color: rgb(2, 32, 117);
-    
+
 }
-.education h1{
+
+.education h1 {
     width: 100%;
     text-align: center;
 }
-.box1{
+
+.box1 {
     width: 33%;
     box-sizing: border-box;
-    
-    
+
+
 }
-.box2{
-    width: 33%;
-    box-sizing: border-box;
-}
-.box3{
+
+.box2 {
     width: 33%;
     box-sizing: border-box;
 }
-.box1 h3, .box2 h3, .box3 h3{
+
+.box3 {
+    width: 33%;
+    box-sizing: border-box;
+}
+
+.box1 h3,
+.box2 h3,
+.box3 h3 {
     text-align: center;
 }
+
 .box1,
 .box2,
-.box3{
+.box3 {
     padding: 10px;
     margin-top: 10px;
     background: url(../img/about-bg.png);
@@ -156,16 +178,18 @@ h1{
 
 
 .school {
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 
 }
+
 .school li {
-padding: 10px;
-margin-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
+
 .school li:hover {
-background: rgb(253, 249, 1);
-border-radius: 30px;
-cursor: pointer;
+    background: rgb(253, 249, 1);
+    border-radius: 30px;
+    cursor: pointer;
 }

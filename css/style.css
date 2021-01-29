@@ -1,4 +1,4 @@
-body{
+body {
     padding: 0px;
     margin: 0px;
     background: rgb(234, 204, 241);
@@ -6,97 +6,110 @@ body{
     box-sizing: border-box;
     overflow-x: hidden;
 }
-.container{
-    background:#fff;
+
+.container {
+    background: #fff;
     border-radius: 10px;
     width: 80%;
     margin: auto;
-  
+
     margin-bottom: 10px;
-    box-shadow: 4px 6px 5px 0px rgba(7,7,7,0.61);
+    box-shadow: 4px 6px 5px 0px rgba(7, 7, 7, 0.61);
     margin-top: 30px;
-    
+
 }
-header{
+
+header {
     justify-content: space-between;
     display: flex;
     align-items: center;
     padding: 10px;
 }
-nav ul{
+
+nav ul {
     margin: 0;
     display: flex;
 }
-nav ul :hover{
+
+nav ul :hover {
     background: rgb(3, 183, 238);
     border-radius: 10px;
 
-    color:black;
+    color: black;
 }
 
-nav ul li{
+nav ul li {
     padding: 10px;
     list-style: none;
-   
+
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     text-transform: uppercase;
 }
+
 .active {
     background: rgb(197, 166, 233);
     border-radius: 40px;
     color: #fff;
 }
+
 .active a {
     color: #fff;
 }
-.picture{
+
+.picture {
     width: 200px;
     height: 40vh;
     box-sizing: border-box;
 }
-.eclipes1{
-    width:20%;
+
+.eclipes1 {
+    width: 20%;
     position: absolute;
     z-index: -1;
-   
-    right:1px;
+
+    right: 1px;
 }
-.eclipes2{
+
+.eclipes2 {
     width: 15%;
     position: absolute;
-    left:-10px;
+    left: -10px;
     top: -18px;
     z-index: -1;
 }
-.eclipes3{
+
+.eclipes3 {
     width: 15%;
     position: absolute;
-    left:-0px;
-    top:400px;
+    left: -0px;
+    top: 400px;
     z-index: -1;
 }
+
 .eclipes4 {
     width: 30%;
     position: absolute;
-    right:-10px;
-    top:100px;
+    right: -10px;
+    top: 100px;
 }
-.getstart{
+
+.getstart {
     display: flex;
     margin-top: 100px;
     box-sizing: border-box;
     justify-content: space-around;
     padding: 10px;
 }
+
 .info {
     width: 30%;
     box-sizing: border-box;
     line-height: 1.5;
     padding: 10px;
-    
+
 }
 
 .info .button-group {
@@ -104,18 +117,21 @@ nav ul li a{
     display: flex;
     justify-content: space-around;
 }
-.button-group a{
+
+.button-group a {
     background: rgb(197, 166, 233);
     padding: 9px;
     border-radius: 5px;
     text-decoration: none;
     color: #fff;
 }
+
 .button-group a:nth-child(1) {
-    border:1px solid rgb(197, 166, 233);
+    border: 1px solid rgb(197, 166, 233);
     background: none;
     color: #000;
 }
+
 .button-group a:nth-child(1):hover {
     background: rgb(197, 166, 233);
     color: #fff;
@@ -131,31 +147,37 @@ nav ul li a{
     height: 50vh;
     border-radius: 10px;
     width: 50%;
-   
+
 }
+
 .pro-pic {
     width: 100%;
     box-sizing: border-box;
     height: auto;
 }
+
 footer {
     display: flex;
     justify-content: flex-end;
 }
+
 .social {
     display: flex;
     width: 30%;
-    
+
 }
+
 ol {
     list-style: none;
     display: flex;
     font-size: 25px;
 }
-ol li  {
+
+ol li {
     padding: 10px;
- 
+
 }
+
 ol li a {
     color: rgb(197, 166, 233);
 }
@@ -167,8 +189,9 @@ ol li a {
     justify-content: space-between;
     margin-top: 30px;
     flex-direction: row-reverse;
-    }
-    .other-img1 {
+}
+
+.other-img1 {
     background: url('../img/other.png');
     background-size: cover;
     background-position: center 88%;
@@ -176,8 +199,9 @@ ol li a {
     border-radius: 0 10px 0 0;
     padding: 10px;
     line-height: 1.4;
-    }
-    .other-img2 {
+}
+
+.other-img2 {
     background: url('../img/other2.png');
     background-size: cover;
     background-position: center 88%;
@@ -185,25 +209,27 @@ ol li a {
     border-radius: 10px 0 0 0;
     padding: 10px;
     line-height: 1.4;
-    }
-    .vote {
+}
+
+.vote {
     display: flex;
     justify-content: flex-end;
-    
-    }
-    .vote a {
+
+}
+
+.vote a {
     padding: 10px;
     text-decoration: none;
     background: rgb(209, 120, 212);
     border-radius: 50%;
     margin-left: 10px;
     color: #fff;
-    }
-    
-    
+}
 
-    
-    .other-img3 {
+
+
+
+.other-img3 {
     background: url('../img/other-4.png');
     background-size: cover;
     background-position: center 10%;
@@ -211,9 +237,9 @@ ol li a {
     border-radius: 0 0 0 10px;
     padding: 10px;
     line-height: 1.4;
-    }
-    
-    .other-img4 {
+}
+
+.other-img4 {
     background: url('../img/other-3.png');
     background-size: cover;
     background-position: center 10%;
@@ -221,11 +247,13 @@ ol li a {
     border-radius: 0 0 10px 0;
     padding: 10px;
     line-height: 1.4;
-    }
-h3{
-
-    color:rgb(0, 0, 129);
 }
-h2{
-    color:rgb(0, 0, 129);
+
+h3 {
+
+    color: rgb(0, 0, 129);
+}
+
+h2 {
+    color: rgb(0, 0, 129);
 }

@@ -1,18 +1,20 @@
-.contact-page{
+.contact-page {
     display: flex;
 }
-.form-container{
-    
+
+.form-container {
+
     width: 50%;
     margin: auto;
     padding: 10px;
     outline: none;
 }
+
 input[type=text],
 input[type=email],
 input[type=password],
 input[type=submit],
-input[type=reset]{
+input[type=reset] {
     margin-top: 10px;
     padding: 10px;
     width: 100%;
@@ -22,74 +24,78 @@ input[type=reset]{
 }
 
 .button1,
-.button2{
+.button2 {
     cursor: pointer;
 }
 
-input[type=submit]{
+input[type=submit] {
     border-radius: 3px;
     color: #fff;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     background: rgb(225, 161, 255);
-    
+
 }
-input[type=reset]{
+
+input[type=reset] {
     background: rgb(225, 161, 255);
-    color:#fff;
+    color: #fff;
     text-transform: uppercase;
     border: none;
     border-radius: 3px;
 }
-.map-container{
+
+.map-container {
     width: 50%;
     margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.contact-text{
+
+.contact-text {
     font-family: sans-serif;
     padding: 10px;
 
 }
 
-p{
-    color:rgb(32, 1, 143);
+p {
+    color: rgb(32, 1, 143);
     font-size: 10px;
 }
-.contact-box{
+
+.contact-box {
     background: rgb(237, 212, 248);
     align-items: center;
     display: flex;
     justify-content: space-around;
-    
 
-   
+
+
 }
-.icon{
+
+.icon {
     font-size: 15px;
-    
+
     display: flex;
     flex-direction: column;
 }
-.map{
+
+.map {
     font-size: 20px;
-    color:red;
-    
+    color: red;
+
 
 }
-h5{
+
+h5 {
     font-family: sans-serif;
-    color:rgb(26, 4, 105);
-}
-h4{
-    color:rgb(57, 2, 253);
-}
-.socia-media li:nth-child(2),
-.socia-media li:nth-child(3),
-.socia-media li:nth-child(4){
-    color:#fff;
+    color: rgb(26, 4, 105);
 }
 
+h4 {
+    color: rgb(57, 2, 253);
+}
 
-
+.socia-media a {
+    color: #fff;
+}
