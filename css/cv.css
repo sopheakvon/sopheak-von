@@ -85,10 +85,15 @@ footer {
     flex-direction: column;
    
 }
+.experence li:nth-child(1){
+    font-size: 15px;
+    font-weight: bold;
+    color:rgb(27, 5, 155);
+}
 .experence li:nth-child(2),
 .experence li:nth-child(3),
 .experence li:nth-child(4){
-    color:rgb(27, 5, 155);
+    color:rgb(104, 103, 105);
 }
 .ex-exper h3,
 .ex-education h3,
@@ -100,6 +105,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    color:rgb(27, 5, 155);
+    font-weight: bold;
    
 }
 .letter img {

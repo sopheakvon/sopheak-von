@@ -133,6 +133,11 @@
 
     
     }
+    @media(max-width:500px){
+        .about-header{
+            flex-direction: column;
+        }
+    }
     
  
     

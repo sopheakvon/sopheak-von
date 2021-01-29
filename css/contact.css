@@ -49,6 +49,7 @@ input[type=reset]{
 }
 .contact-text{
     font-family: sans-serif;
+    padding: 10px;
 
 }
 
@@ -61,6 +62,7 @@ p{
     align-items: center;
     display: flex;
     justify-content: space-around;
+    
 
    
 }
@@ -82,6 +84,11 @@ h5{
 }
 h4{
     color:rgb(57, 2, 253);
+}
+.socia-media li:nth-child(2),
+.socia-media li:nth-child(3),
+.socia-media li:nth-child(4){
+    color:#fff;
 }
 
 
